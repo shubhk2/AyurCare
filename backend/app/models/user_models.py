@@ -27,7 +27,7 @@ class BiologicalData(BaseModel):
     height_cm: int
     weight_kg: float
     age: int
-    gender: Literal["male", "female", "other"]
+    gender: Literal["male", "female"]
     activity_level: Literal["sedentary", "light", "moderate", "active", "very_active"]
 
 
